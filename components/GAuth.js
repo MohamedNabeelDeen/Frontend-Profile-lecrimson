@@ -17,16 +17,14 @@ const GLogin = (props) => {
     console.log(response);
     props.response(response);
   };
-  const Success = (res) => {
-    console.log(res);
-  };
+
   return (
     <div>
       <GoogleLogin
         clientId={clientId}
         buttonText="Sign in with Google"
         theme="filled_blue"
-        onSuccess={Success}
+        onSuccess={responseGoogle}
         onFailure={responseGoogle}
         cookiePolicy={"single_host_origin"}
       />
