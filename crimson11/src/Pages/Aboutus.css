@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.logobar-container {
+  background-color: #ffff;
+}
+
+.nav-container {
+  background-color: rgb(154, 7, 7);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  font-size: 25px;
+  color: #ffff;
+  padding-left: 10px;
+}
+
+.navbutton {
+  display: flex;
+  flex-flow: row;
+
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
